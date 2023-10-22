@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fuse"
+version = "0.1.0"
+description = ""
+authors = ["Anton Kovalov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pypdf = "^3.16.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
