@@ -13,11 +13,11 @@ methods, e.g.:
 The following explanation is for the setup with `poetry` only:
 
 * Install [`poetry`](https://python-poetry.org/docs/#installation) globally.
-* Make sure that your system has python `>=3.9`. If no install it, e.g. using [pyenv](https://github.com/pyenv/pyenv) or manually.
+* Make sure that your system has python `>=3.9`. If no install it, e.g. using [`pyenv`](https://github.com/pyenv/pyenv) or manually.
 * Clone this repo with `git clone https://github.com/hidal00p/fuse.git`.
 * Navigate to the cloned directory `cd fuse`.
 * Tell `poetry` to create an environment based on python version `>=3.9` with `poetry env use <path to the desired python executable>`.
-* Install dependencies `poetry env install`.
+* Install dependencies `poetry install`.
 
 ### Usage
 The program takes in files to be merged, and fuses them into an output file
